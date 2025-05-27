@@ -32,8 +32,7 @@ spec:
           envFrom:
             - secretRef:
                 name: test-secret
-          image: >-
-            image-registry.openshift-image-registry.svc:5000/sandbox-denis/alpine:latest
+          image: " "
           imagePullPolicy: IfNotPresent
           name: sleep
       restartPolicy: Always
